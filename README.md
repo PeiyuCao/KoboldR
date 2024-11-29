@@ -14,7 +14,7 @@ Launching displays a GUI with configurable settings. Choose and load a GGUF mode
 
 Recommended configurations: 
 ```
-{"launch": false, "highpriority": true, "flashattention": true}
+{"launch": false, "contextsize": 16384, "highpriority": true, "flashattention": true}
 ```
 
 **Installation**
