@@ -1,13 +1,21 @@
 **KoboldR**
 -
 The KoboldR library is an easy and light way to integrate R with Koboldcpp, which lets you run language models locally on your own machine.
-To use this R library, ensure the Koboldcpp app is installed (https://github.com/LostRuins/koboldcpp/releases/latest). 
+
+To use this R library, ensure that Koboldcpp app is installed (https://github.com/LostRuins/koboldcpp/releases/latest). 
 
 **Setting up Koboldcpp**
 -
 KoboldCpp is an easy-to-use AI text-generation software for GGML and GGUF models (https://github.com/LostRuins/koboldcpp/wiki). 
+
 To run, simply execute koboldcpp.exe.
-Launching displays a GUI with configurable settings. Choose and load a GGUF model (https://github.com/LostRuins/koboldcpp?tab=readme-ov-file#Obtaining-a-GGUF-model). Recommended configurations are: uncheck “Launch Brower”, check “use FlashAttention”, and check “High Priority” in “Hardware”. 
+
+Launching displays a GUI with configurable settings. Choose and load a GGUF model (https://github.com/LostRuins/koboldcpp?tab=readme-ov-file#Obtaining-a-GGUF-model). 
+
+Recommended configurations: 
+```
+{"launch": false, "highpriority": true, "flashattention": true}
+```
 
 **Installation**
 -
