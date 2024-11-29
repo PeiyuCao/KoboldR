@@ -11,7 +11,14 @@ Launching displays a GUI with configurable settings. Choose and load a GGUF mode
 
 **Installation**
 -
-
+This package is currently in active development.
+To install this package, please install devtools package first by simply execute:
+```
+install.packages(devtools)
+library("devtools")
+devtools::install_github("PeiyuCao/KoboldR")
+library(KoboldR)
+```
 
 **Usage**
 -
